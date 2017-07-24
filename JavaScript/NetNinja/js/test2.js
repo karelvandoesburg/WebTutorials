@@ -1,12 +1,16 @@
 function setUpEvents() {
     
-    var jeweet = require('./test3');
-    
-    console.log(jeweet());
-    
     var content = document.getElementById("tester");
 
     console.log("test");
+    
+    console.log(getAverage(5,10));
+    
+    volgorde();
+    
+    function volgorde (){
+        console.log("volgorde maakt niet uit");
+    }
 
     content.onclick = function (){
 
